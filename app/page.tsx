@@ -16,10 +16,10 @@ export default function Home() {
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2">
             <div className="flex size-10 items-center justify-center rounded-lg bg-primary">
-              <span className="font-mono text-lg font-bold text-primary-foreground">CH</span>
+              <span className="font-mono text-lg font-bold text-primary-foreground">S2S</span>
             </div>
             <div>
-              <h1 className="text-lg font-bold leading-none text-foreground">CampusHustle</h1>
+              <h1 className="text-lg font-bold leading-none text-foreground">Startup2Student</h1>
               <p className="text-xs text-muted-foreground">Connect. Advertise. Earn.</p>
             </div>
           </div>

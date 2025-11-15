@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'CampusHustle - Connect Startups with Student Ambassadors',
+  title: 'Startup2Student (S2S) - Connect Startups with Student Ambassadors',
   description: 'A platform connecting startups with verified university students for campus advertising. Students earn money by promoting startups at their schools.',
   generator: 'v0.app',
   icons: {
