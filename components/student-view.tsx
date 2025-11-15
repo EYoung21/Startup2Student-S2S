@@ -12,43 +12,163 @@ import { Search, Briefcase, DollarSign, Calendar, MessageSquare, CheckCircle2 } 
 const startups = [
   {
     id: 1,
-    name: "TechFlow AI",
-    industry: "Artificial Intelligence",
-    description: "AI-powered productivity tools for students and professionals",
-    budget: "$500/month",
-    tasksAvailable: 12,
-    logo: "TF",
-    color: "bg-blue-500"
+    name: "Notion",
+    industry: "Productivity / SaaS",
+    description: "All-in-one workspace for notes, docs, wikis, and project management. Used by millions of students and teams worldwide.",
+    budget: "$1,200/month",
+    tasksAvailable: 25,
+    logo: "N",
+    color: "bg-black"
   },
   {
     id: 2,
-    name: "EcoCart",
-    industry: "E-commerce",
-    description: "Sustainable shopping marketplace with carbon-neutral delivery",
-    budget: "$750/month",
-    tasksAvailable: 8,
-    logo: "EC",
-    color: "bg-green-500"
+    name: "Figma",
+    industry: "Design / Collaboration",
+    description: "Collaborative interface design tool used by designers and product teams. Popular in CS and design courses.",
+    budget: "$900/month",
+    tasksAvailable: 18,
+    logo: "F",
+    color: "bg-purple-600"
   },
   {
     id: 3,
-    name: "StudyBuddy",
-    industry: "EdTech",
-    description: "Collaborative learning platform connecting students worldwide",
-    budget: "$400/month",
-    tasksAvailable: 15,
-    logo: "SB",
-    color: "bg-purple-500"
+    name: "Discord",
+    industry: "Communication",
+    description: "Voice, video, and text chat platform for communities and study groups. Essential for student organizations.",
+    budget: "$1,500/month",
+    tasksAvailable: 30,
+    logo: "D",
+    color: "bg-indigo-600"
   },
   {
     id: 4,
-    name: "HealthHub",
-    industry: "Healthcare",
-    description: "Mental health and wellness app for college students",
-    budget: "$600/month",
-    tasksAvailable: 10,
-    logo: "HH",
-    color: "bg-red-500"
+    name: "Grammarly",
+    industry: "EdTech / Writing",
+    description: "AI-powered writing assistant helping students write better essays, emails, and papers with grammar and style suggestions.",
+    budget: "$800/month",
+    tasksAvailable: 22,
+    logo: "G",
+    color: "bg-green-600"
+  },
+  {
+    id: 5,
+    name: "Spotify",
+    industry: "Music Streaming",
+    description: "Music streaming service with student discounts. Promote premium subscriptions and campus playlists.",
+    budget: "$2,000/month",
+    tasksAvailable: 40,
+    logo: "S",
+    color: "bg-green-500"
+  },
+  {
+    id: 6,
+    name: "Duolingo",
+    industry: "EdTech / Languages",
+    description: "Language learning app with gamified lessons. Expand reach in foreign language departments and study abroad programs.",
+    budget: "$700/month",
+    tasksAvailable: 20,
+    logo: "D",
+    color: "bg-green-400"
+  },
+  {
+    id: 7,
+    name: "Canva",
+    industry: "Design / Creativity",
+    description: "Easy-to-use graphic design platform for students creating posters, presentations, and social media content.",
+    budget: "$850/month",
+    tasksAvailable: 24,
+    logo: "C",
+    color: "bg-cyan-500"
+  },
+  {
+    id: 8,
+    name: "Stripe",
+    industry: "FinTech / Payments",
+    description: "Payment infrastructure for the internet. Recruit student developers and campus entrepreneurs to build with Stripe.",
+    budget: "$1,000/month",
+    tasksAvailable: 15,
+    logo: "S",
+    color: "bg-purple-700"
+  },
+  {
+    id: 9,
+    name: "Dropbox",
+    industry: "Cloud Storage",
+    description: "Cloud storage and file sharing platform. Promote student plans and collaboration features for group projects.",
+    budget: "$750/month",
+    tasksAvailable: 19,
+    logo: "D",
+    color: "bg-blue-600"
+  },
+  {
+    id: 10,
+    name: "Calm",
+    industry: "Health & Wellness",
+    description: "Meditation and sleep app helping students manage stress, anxiety, and improve mental health on campus.",
+    budget: "$900/month",
+    tasksAvailable: 16,
+    logo: "C",
+    color: "bg-sky-400"
+  },
+  {
+    id: 11,
+    name: "Headspace",
+    industry: "Health & Wellness",
+    description: "Mindfulness and meditation app for college students. Partner with counseling centers and wellness programs.",
+    budget: "$850/month",
+    tasksAvailable: 14,
+    logo: "H",
+    color: "bg-orange-500"
+  },
+  {
+    id: 12,
+    name: "Instacart",
+    industry: "Delivery / E-commerce",
+    description: "Grocery delivery service. Promote to busy students who need convenient food delivery during exam season.",
+    budget: "$1,100/month",
+    tasksAvailable: 28,
+    logo: "I",
+    color: "bg-green-600"
+  },
+  {
+    id: 13,
+    name: "Revolut",
+    industry: "FinTech / Banking",
+    description: "Digital banking app for students studying abroad or managing finances. No foreign transaction fees.",
+    budget: "$950/month",
+    tasksAvailable: 17,
+    logo: "R",
+    color: "bg-blue-500"
+  },
+  {
+    id: 14,
+    name: "Quizlet",
+    industry: "EdTech / Study Tools",
+    description: "Study app with flashcards, practice tests, and learning games. Essential tool for exam prep across all majors.",
+    budget: "$700/month",
+    tasksAvailable: 26,
+    logo: "Q",
+    color: "bg-purple-600"
+  },
+  {
+    id: 15,
+    name: "Chegg",
+    industry: "EdTech",
+    description: "Textbook rentals and homework help service. Promote subscription plans and study resources to undergrads.",
+    budget: "$1,200/month",
+    tasksAvailable: 32,
+    logo: "C",
+    color: "bg-orange-600"
+  },
+  {
+    id: 16,
+    name: "HelloFresh",
+    industry: "Food / Meal Kits",
+    description: "Meal kit delivery service perfect for students living off-campus. Easy cooking with pre-portioned ingredients.",
+    budget: "$1,300/month",
+    tasksAvailable: 21,
+    logo: "H",
+    color: "bg-green-700"
   },
 ]
 
@@ -67,7 +187,7 @@ export function StudentView() {
       <div className="mb-8 rounded-xl bg-accent p-8 text-accent-foreground">
         <h2 className="mb-2 text-balance text-3xl font-bold">Earn Money Advertising for Startups on Campus</h2>
         <p className="mb-6 max-w-2xl text-pretty text-lg">
-          Verify your .edu email and start earning $5 per task. Put up posters, send emails, share on social media—get paid for every verified action.
+          Verify your .edu email and start earning. Put up posters, send emails, post on social media, or organize campus events—get paid for every verified action.
         </p>
         <Button size="lg" variant="secondary">
           Verify Your .edu Email
@@ -204,7 +324,7 @@ export function StudentView() {
             </div>
             <div>
               <p className="font-semibold text-foreground">Complete Tasks</p>
-              <p className="text-sm text-muted-foreground">Put up posters, send emails, or share on social media</p>
+              <p className="text-sm text-muted-foreground">Posters, flyers, emails, department outreach, social posts, or become a campus ambassador</p>
             </div>
           </div>
           <div className="flex gap-3">
